@@ -65,24 +65,6 @@ setlocal foldmethod=syntax
 " Cursor como linha (beam) no modo insert
 let &t_SI = "\e[6 q"
 
-" --- BARRA DE STATUS PERSONALIZADA ---(COMENTADAS)
-
-" Limpa configuração anterior da statusline
-" set statusline=
-
-" Lado esquerdo da barra: nome do arquivo, status de modificação, tipo, etc.
-"set statusline+=\ %F\ %M\ %Y\ %R
-
-" Separador entre lado esquerdo e direito
-" set statusline+=%=
-
-" Lado direito da barra: linha, coluna e porcentagem no arquivo
-" set statusline+=\ row:\ %l\ col:\ %c\ percent:\ %p%%
-
-" Garante que a barra de status seja exibida sempre
-" set laststatus=2
-
-
 " --- CONFIGURAÇÕES DO YOUCOMPLETEME (YCM) ---
 
 " Remove a janela de preview (popup de autocomplete)
