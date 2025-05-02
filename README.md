@@ -181,3 +181,32 @@ augroup END
 4. Verifique diagnósticos do LSP com `:LspStatus`.
 
 Pronto! Seu ambiente Vim está pronto para desenvolvimento moderno com LSP, autocompletar e aparência personalizada.
+
+
+---
+
+## 10. Substituindo seu arquivo `.vimrc`
+
+Caso você queira utilizar a configuração completa diretamente:
+
+1. Salve o conteúdo da configuração em um arquivo chamado `.vimrc`:
+   ```bash
+   cp caminho/do/seu/arquivo_de_configuracao ~/.vimrc
+   ```
+
+   Exemplo, caso o arquivo esteja no mesmo local deste guia:
+   ```bash
+   cp caminho/do/seu/arquivo_de_configuracao ~/.vimrc
+   ```
+
+2. Reinicie o Vim:
+   ```bash
+   vim
+   ```
+
+3. Execute `:PlugInstall` no Vim para instalar os plugins.
+
+⚠️ **Atenção:** Isso irá sobrescrever seu `.vimrc` atual. Faça um backup, se necessário:
+```bash
+cp ~/.vimrc ~/.vimrc.backup
+```
