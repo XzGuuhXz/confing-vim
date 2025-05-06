@@ -158,7 +158,7 @@ let g:lsp_settings = {
 ---
 
 ### Configuração opcional
-z
+
 ---
 
 ### Airline
