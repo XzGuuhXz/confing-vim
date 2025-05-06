@@ -13,21 +13,13 @@ Antes de tudo, instale as dependências básicas em seu sistema **Debian/Ubuntu*
 - **Node.js** (opcional, caso você queira usar outros LSPs baseados em JavaScript).
 - **Fonte Powerline ou Nerd Font**: necessária para ícones na barra de status com vim-airline.
 
-### Dependências úteis para extensões futuras (opcional)
-### Instalando em Debian/Ubuntu:
-Estes pacotes são úteis para plugins como YouCompleteMe, coc.nvim, debugadores, etc.:
-
-```bash
-sudo apt install -y cmake python3-dev 
-```
-
 ---
 
 ### Instalando em Debian/Ubuntu:
 
 ```bash
 sudo apt update
-sudo apt install -y vim git curl build-essential ccls nodejs npm fonts-powerline fonts-firacode
+sudo apt install -y vim git curl build-essential ccls nodejs npm cmake python3-dev  fonts-powerline fonts-firacode
 ```  
 
 ### Para Neovim, se ainda não estiver instalado:
@@ -36,6 +28,10 @@ sudo apt install -y neovim
 ```
 
 ---
+
+```bash
+sudo apt install -y cmake python3-dev 
+```
 
 ## 2. Instalando o vim-plug
 
@@ -125,7 +121,6 @@ set termguicolors
 let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
-hi! MatchParen cterm=NONE,bold gui=NONE,bold guibg=#87c095 guifg=NONE
 ```
 
 ### Configurações Gerais
