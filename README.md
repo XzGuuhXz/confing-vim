@@ -9,6 +9,7 @@ Este guia descreve os passos necessários para instalar e configurar o **vim ou 
 Antes de tudo, instale as dependências básicas em seu sistema **Debian/Ubuntu**:
 - **Vim** (versão >= 8.0) ou **Neovim** (recomendado para melhor compatibilidade com LSP).
 - **Git**: necessário para clonar os repositórios dos plugins.
+- **CMake** e **Python 3-dev / Python-devel (opicional)**:necessario caso queira adiciona mas plugs.
 - **ccls** (ou outro servidor LSP de sua preferência) para C/C++.
 - **Node.js** (opcional, caso você queira usar outros LSPs baseados em JavaScript).
 - **Fonte Powerline ou Nerd Font**: necessária para ícones na barra de status com vim-airline.
@@ -19,7 +20,7 @@ Antes de tudo, instale as dependências básicas em seu sistema **Debian/Ubuntu*
 
 ```bash
 sudo apt update
-sudo apt install -y vim git curl build-essential ccls nodejs npm cmake python3-dev  fonts-powerline fonts-firacode
+sudo apt install -y vim git curl build-essential ccls nodejs npm cmake python3-dev fonts-powerline fonts-firacode
 ```  
 
 ### Para Neovim, se ainda não estiver instalado:
