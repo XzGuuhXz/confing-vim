@@ -30,10 +30,6 @@ sudo apt install -y neovim
 
 ---
 
-```bash
-sudo apt install -y cmake python3-dev 
-```
-
 ## 2. Instalando o vim-plug
 
 ### Vim
